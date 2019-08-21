@@ -1,11 +1,11 @@
-export interface SortedAble {
+export interface Sortable {
 	length: number;
 	compare(leftIndex: number, rightIndex: number): boolean;
 	swipe(leftIndex: number, rightIndex: number): void;
 }
 
 export class Sorter {
-	constructor(public collection: SortedAble) {
+	constructor(public collection: Sortable) {
 		this.collection = collection;
 	}
 
