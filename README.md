@@ -1,14 +1,13 @@
 # LearnTypeScript-sort\_\_app
 
+Application implements basic sorting collection of numbers, string, linkedList.
+
 ## basic setup
 
 - tsc --init -> created tsconfig.json
 - in tsconfig set up
   - "outDir": "./build"
   - "rootDir": "./src"
-
-## compile
-
 - tsc -> compile ts files from src folder to build
 - tsc -w -> watch and automatic compile all changed files
 - node build/index.js -> build and run code in index.js file
